@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
     DB::table('job_listings')->truncate();
     DB::table('users')->truncate();
 
-    // $this->call(TestUserSeeder::class);
+    $this->call(TestUserSeeder::class);
     $this->call(RandomUserSeeder::class);
     $this->call(JobSeeder::class);
     // $this->call(BookmarkSeeder::class);
