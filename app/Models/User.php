@@ -3,11 +3,12 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use App\Models\Job as JobListing;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\Models\Job as JobListing;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class User extends Authenticatable
 {
@@ -23,6 +24,7 @@ class User extends Authenticatable
     'name',
     'email',
     'password',
+    'avatar'
   ];
 
   /**
@@ -52,5 +54,17 @@ class User extends Authenticatable
   public function jobListings(): HasMany
   {
     return $this->hasMany(JobListing::class);
+  }
+
+  // Relate to bookmarks
+  public function bookmarkedJobs(): BelongsToMany
+  {
+    return $this->belongsToMany(Job::class, 'job_user_bookmarks')->withTimestamps();
+  }
+
+  // Relation to applicants
+  public function applicants(): HasMany
+  {
+    return $this->hasMany(Applicant::class, 'user_id');
   }
 }

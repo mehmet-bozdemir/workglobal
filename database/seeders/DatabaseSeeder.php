@@ -19,14 +19,14 @@ class DatabaseSeeder extends Seeder
     DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
     // Truncate tables
-    // DB::table('job_user_bookmarks')->truncate();
-    // DB::table('applicants')->truncate();
+    DB::table('job_user_bookmarks')->truncate();
+    DB::table('applicants')->truncate();
     DB::table('job_listings')->truncate();
     DB::table('users')->truncate();
 
     $this->call(TestUserSeeder::class);
     $this->call(RandomUserSeeder::class);
     $this->call(JobSeeder::class);
-    // $this->call(BookmarkSeeder::class);
+    $this->call(BookmarkSeeder::class);
   }
 }

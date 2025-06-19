@@ -23,8 +23,8 @@ class JobController extends Controller
     // This method will return the view for the job listings.
     // You can also pass data to the view if needed.
     // For example, you might want to fetch job listings from the database.
-    $jobs = Job::all(); // Assuming you have a Job model set up.
-    return view('jobs.index', compact('jobs'));
+    $jobs = Job::latest()->paginate(9);
+    return view('jobs.index')->with('jobs', $jobs);
   }
 
   public function show(Job $job): View
