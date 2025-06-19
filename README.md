@@ -20,9 +20,10 @@ A full-featured job portal built using Laravel, where users can **post vacancies
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+
 
 ```bash
+### 1. Clone the repository
 git clone https://github.com/yourusername/laravel-job-portal.git
 cd laravel-job-portal
 ### 2. Install dependencies
