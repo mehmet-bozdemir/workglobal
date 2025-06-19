@@ -1,44 +1,39 @@
-# 🧑‍💼 Laravel Job Portal
+# 🧑‍💼 WorkGlobal – Laravel Job Portal
 
-A full-featured job portal built using Laravel, where users can **post vacancies** or **apply for jobs**. The application features robust authentication, authorization, a search-enabled job board, and email integration for job applications.
+A modern, full-featured **job portal** built with Laravel where users can **post vacancies** or **apply for jobs**. This application includes **robust authentication**, **role-based access**, **interactive job maps**, and **email notifications** — making it a complete solution for hiring and job hunting.
 
 ---
 
 ## 🚀 Features
 
-- ✅ **User Authentication** (Login/Register/Forgot Password)
-- ✅ **User Roles & Policies** (Admin, Employer, Applicant)
-- ✅ **Job Posting (CRUD)** for authenticated users
-- ✅ **Job Application** with optional email notification
-- ✅ **Bookmark Jobs** for later reference
-- ✅ **Profile & Dashboard Pages**
-- ✅ **Map Integration** using Mapbox or Leaflet for job location preview
-- ✅ **Middleware-protected routes** for secure access control
-- ✅ **Reusable View Components** with Blade
-- ✅ **Responsive UI** (Tailwind)
-- ✅ **Search and Filter Jobs**
+- ✅ **Authentication** – Login, Register, Forgot Password
+- ✅ **Role-Based Access** – Admin, Employer, Applicant
+- ✅ **Job Management (CRUD)** – Post, Edit, Delete jobs
+- ✅ **Job Applications** – With optional email notifications
+- ✅ **Bookmarking** – Save jobs for later
+- ✅ **Profile & Dashboard** – Personalized user interface
+- ✅ **Interactive Maps** – Mapbox or Leaflet for job locations
+- ✅ **Secure Routes** – Middleware and Policies
+- ✅ **Reusable Blade Components**
+- ✅ **Responsive UI** – Built with Tailwind CSS
+- ✅ **Search & Filtering** – Find relevant opportunities fast
 
-🛠 Technologies Used
-Laravel 10+
+---
 
-PHP 8.1+
+## 🛠 Tech Stack
 
-Blade Templates
+| Layer         | Tools & Frameworks                   |
+|--------------|--------------------------------------|
+| **Backend**   | Laravel 10+, PHP 8.1+                |
+| **Frontend**  | Blade Templates, Alpine.js, Tailwind |
+| **Database**  | MySQL                                |
+| **Email**     | Mailtrap (SMTP)                      |
+| **Maps**      | Mapbox / Leaflet                     |
+| **Security**  | Laravel Policies & Middleware        |
 
-Alpine Js
+---
 
-Mapbox (JS)
-
-Tailwind CSS
-
-MySQL
-
-Mailtrap
-
-Laravel Policies & Middleware
-
-## ⚙️ Installation
-
+## ⚙️ Installation Guide
 
 
 ```bash
