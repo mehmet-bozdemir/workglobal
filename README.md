@@ -57,8 +57,8 @@ MAIL_PORT=587
 MAIL_USERNAME=your@email.com
 MAIL_PASSWORD=yourpassword
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=no-reply@jobportal.com
-MAIL_FROM_NAME="Job Portal"
+MAIL_FROM_ADDRESS=no-reply@workglobal.com
+MAIL_FROM_NAME="Workglobal"
 7. Map Integration
 MAPBOX_API_KEY=your_mapbox_token
 
