@@ -47,7 +47,7 @@ MAIL_FROM_ADDRESS=no-reply@jobportal.com
 MAIL_FROM_NAME="Job Portal"
 7. Map Integration
 MAPBOX_API_KEY=your_mapbox_token
-
+```bash
 
 🛠 Technologies Used
 Laravel 10+
@@ -65,6 +65,8 @@ MySQL / SQLite
 Laravel Mail
 
 Laravel Policies & Middleware
+
+
 
 
 
