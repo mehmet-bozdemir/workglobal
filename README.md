@@ -18,6 +18,23 @@ A full-featured job portal built using Laravel, where users can **post vacancies
 - ✅ **Responsive UI** (Tailwind)
 - ✅ **Search and Filter Jobs**
 
+  🛠 Technologies Used
+Laravel 10+
+
+PHP 8.1+
+
+Blade Templates
+
+Mapbox or Leaflet (JS)
+
+Bootstrap/Tailwind CSS
+
+MySQL / SQLite
+
+Laravel Mail
+
+Laravel Policies & Middleware
+
 ## ⚙️ Installation
 
 
