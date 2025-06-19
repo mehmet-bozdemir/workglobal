@@ -25,6 +25,8 @@ PHP 8.1+
 
 Blade Templates
 
+Alpine Js
+
 Mapbox or Leaflet (JS)
 
 Bootstrap/Tailwind CSS
