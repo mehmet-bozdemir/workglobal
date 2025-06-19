@@ -27,13 +27,13 @@ Blade Templates
 
 Alpine Js
 
-Mapbox or Leaflet (JS)
+Mapbox (JS)
 
-Bootstrap/Tailwind CSS
+Tailwind CSS
 
-MySQL / SQLite
+MySQL
 
-Laravel Mail
+Mailtrap
 
 Laravel Policies & Middleware
 
