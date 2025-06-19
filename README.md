@@ -6,8 +6,9 @@ A modern, full-featured **job portal** built with Laravel where users can **post
 
 ## 🚀 Features
 
-- ✅ **Authentication** – Login, Register, Forgot Password
-- ✅ **Role-Based Access** – Admin, Employer, Applicant
+## 🚀 TALL STACK
+
+- ✅ **Authentication** – Login, Register
 - ✅ **Job Management (CRUD)** – Post, Edit, Delete jobs
 - ✅ **Job Applications** – With optional email notifications
 - ✅ **Bookmarking** – Save jobs for later
@@ -15,6 +16,7 @@ A modern, full-featured **job portal** built with Laravel where users can **post
 - ✅ **Interactive Maps** – Mapbox or Leaflet for job locations
 - ✅ **Secure Routes** – Middleware and Policies
 - ✅ **Reusable Blade Components**
+- ✅ **Alpine Js**
 - ✅ **Responsive UI** – Built with Tailwind CSS
 - ✅ **Search & Filtering** – Find relevant opportunities fast
 
