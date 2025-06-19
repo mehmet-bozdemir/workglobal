@@ -15,7 +15,7 @@ A full-featured job portal built using Laravel, where users can **post vacancies
 - ✅ **Map Integration** using Mapbox or Leaflet for job location preview
 - ✅ **Middleware-protected routes** for secure access control
 - ✅ **Reusable View Components** with Blade
-- ✅ **Responsive UI** (Bootstrap/Tailwind ready)
+- ✅ **Responsive UI** (Tailwind)
 - ✅ **Search and Filter Jobs**
 
 ## ⚙️ Installation
@@ -23,18 +23,30 @@ A full-featured job portal built using Laravel, where users can **post vacancies
 
 
 ```bash
-### 1. Clone the repository
-git clone https://github.com/yourusername/laravel-job-portal.git
-cd laravel-job-portal
-### 2. Install dependencies
+1. Clone the repository
+git clone https://github.com/yourusername/workglobal.git
+cd workglobal
+2. Install dependencies
 composer install
 npm install && npm run dev
-### 3. Create .env
+3. Create .env
 cp .env.example .env
 php artisan key:generate
-### 4. Run migrations and seeders
+4. Run migrations and seeders
 php artisan migrate --seed
-### 5. Start the development server
+5. Start the development server
 php artisan serve
+6. Job Application Email Setup
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.example.com
+MAIL_PORT=587
+MAIL_USERNAME=your@email.com
+MAIL_PASSWORD=yourpassword
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=no-reply@jobportal.com
+MAIL_FROM_NAME="Job Portal"
+7. Map Integration
+MAPBOX_API_KEY=your_mapbox_token
+
 
 
