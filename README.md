@@ -67,4 +67,14 @@ MAPBOX_API_KEY=your_mapbox_token
 ## Home page
 <p align="center"> <img src="public/images/home-page.png"></p>
 
+## Dashboard
+<p align="center"> <img src="public/images/dashboard.png"></p>
 
+## Create job listings
+<p align="center"> <img src="public/images/create-job-listings.png"></p>
+
+## Saved jobs
+<p align="center"> <img src="public/images/saved-jobs.png"></p>
+
+## Locator
+<p align="center"> <img src="public/images/locator.png"></p>
