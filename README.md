@@ -64,6 +64,7 @@ MAIL_FROM_NAME="Workglobal"
 7. Map Integration
 MAPBOX_API_KEY=your_mapbox_token
 ```
-hkhkhkh
+## Home page
+<p align="center"> <img src="public/images/home-page.png"></p>
 
 
